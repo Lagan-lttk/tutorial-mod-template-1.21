@@ -2,6 +2,7 @@ package net.gustavo.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.gustavo.tutorialmod.block.ModBlocks;
 import net.gustavo.tutorialmod.item.ModItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,6 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
         ModItem.registerModItem();
-
+        ModBlocks.registerModBlocks();
 	}
 }
