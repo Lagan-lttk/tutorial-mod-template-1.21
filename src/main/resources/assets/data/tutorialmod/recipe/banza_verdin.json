@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tutorial-mod:bloco_de_maconha"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorial-mod:banza_verdin"
+  }
+}
