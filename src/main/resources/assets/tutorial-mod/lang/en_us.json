@@ -3,5 +3,8 @@
   "item.tutorial-mod.prensado": "Prensado do Jaca",
 
   "block.tutorial-mod.bloco_de_maconha": "Bloco de Maconha",
-  "block.tutorial-mod.olho_negro": "Olho Negro"
+  "block.tutorial-mod.olho_negro": "Olho Negro",
+
+  "itemgroup.tutorial-mod.grupo_das_coisas_malucas": "Coisas Malucas Do Gustavin Delas",
+  "itemgroup.tutorial-mod.grupo_dos_blocos_malucos": "Blocos Malucos"
 }
