@@ -20,11 +20,12 @@ public class ModBlocks {
                     breakInstantly().
                     sounds(BlockSoundGroup.CHERRY_LEAVES)));
 
-    public static final Block BLOCO_DE_GUARANA = registerBlock("bloco_de_guarana",
+    public static final Block OLHO_NEGRO = registerBlock("olho_negro",
             new Block(AbstractBlock.Settings.create()
-                    .strength(1f)
                     .breakInstantly()
-                    .sounds(BlockSoundGroup.GRASS)));
+                    .noCollision()
+                    .sounds(BlockSoundGroup.FUNGUS)));
+
 
     public static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);
@@ -41,6 +42,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.BLOCO_DE_MACONHA);
+            fabricItemGroupEntries.add(ModBlocks.OLHO_NEGRO);
         });
     }
 }
