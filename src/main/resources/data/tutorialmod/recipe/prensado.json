@@ -5,9 +5,9 @@
   "experience": 0.2,
   "group": "prensado",
   "ingredient": {
-    "item": "tutorial-mod:olho_negro"
+    "item": "tutorialmod:olho_negro"
   },
   "result": {
-    "id": "tutorial-mod:prensado"
+    "id": "tutorialmod:prensado"
   }
 }

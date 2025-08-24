@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "tutorial-mod:block/bloco_de_maconha"
+    "all": "tutorialmod:block/bloco_de_maconha"
   }
 }

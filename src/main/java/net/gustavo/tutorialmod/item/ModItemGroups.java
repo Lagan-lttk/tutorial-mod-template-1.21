@@ -16,7 +16,7 @@ public class ModItemGroups {
             Identifier.of(TutorialMod.MOD_ID,"grupo_das_coisas_malucas"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModItem.BANZA_VERDIN))
-                    .displayName(Text.translatable("itemgroup.tutorial-mod.grupo_das_coisas_malucas"))
+                    .displayName(Text.translatable("itemgroup.tutorialmod.grupo_das_coisas_malucas"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItem.PRENSADO);
                         entries.add(ModItem.BANZA_VERDIN);
@@ -27,7 +27,7 @@ public class ModItemGroups {
             Identifier.of(TutorialMod.MOD_ID,"grupo_dos_blocos_malucos"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModBlocks.OLHO_NEGRO))
-                    .displayName(Text.translatable("itemgroup.tutorial-mod.grupo_dos_blocos_malucos"))
+                    .displayName(Text.translatable("itemgroup.tutorialmod.grupo_dos_blocos_malucos"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.OLHO_NEGRO);
                         entries.add(ModBlocks.BLOCO_DE_MACONHA);

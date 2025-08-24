@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorial-mod:item/prensado"
+    "layer0": "tutorialmod:item/banza_verdin"
   }
 }

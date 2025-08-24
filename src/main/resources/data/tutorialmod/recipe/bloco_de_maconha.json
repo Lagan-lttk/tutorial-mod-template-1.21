@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "tutorial-mod:banza_verdin"
+      "item": "tutorialmod:banza_verdin"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "tutorial-mod:bloco_de_maconha"
+    "id": "tutorialmod:bloco_de_maconha"
   }
 }
