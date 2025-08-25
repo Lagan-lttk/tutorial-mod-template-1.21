@@ -17,12 +17,10 @@ public class ModBlocks {
     public static final Block BLOCO_DE_MACONHA = registerBlock("bloco_de_maconha",
             new Block(AbstractBlock.Settings.create().
                     strength(4f).
-                    breakInstantly().
                     sounds(BlockSoundGroup.CHERRY_LEAVES)));
 
     public static final Block OLHO_NEGRO = registerBlock("olho_negro",
             new Block(AbstractBlock.Settings.create()
-                    .breakInstantly()
                     .noCollision()
                     .sounds(BlockSoundGroup.FUNGUS)));
 

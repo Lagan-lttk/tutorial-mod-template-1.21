@@ -12,6 +12,9 @@ public class ModItem {
 
     public static final Item BANZA_VERDIN = registerItem("banza_verdin", new Item(new Item.Settings()));
     public static final Item PRENSADO = registerItem("prensado", new Item(new Item.Settings()));
+    public static final Item MACONHA = registerItem("maconha", new Item(new Item.Settings()));
+    public static final Item SEDA = registerItem("seda",new Item(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name),item);
@@ -23,6 +26,8 @@ public class ModItem {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
            fabricItemGroupEntries.add(BANZA_VERDIN);
            fabricItemGroupEntries.add(PRENSADO);
+           fabricItemGroupEntries.add(MACONHA);
+           fabricItemGroupEntries.add(SEDA);
         });
     }
 }

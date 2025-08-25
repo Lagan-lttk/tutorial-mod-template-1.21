@@ -20,6 +20,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItem.PRENSADO);
                         entries.add(ModItem.BANZA_VERDIN);
+                        entries.add(ModItem.MACONHA);
+                        entries.add(ModItem.SEDA);
                     })
                     .build());
 

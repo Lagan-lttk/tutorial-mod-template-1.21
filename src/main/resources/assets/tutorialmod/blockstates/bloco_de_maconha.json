@@ -1,7 +1,7 @@
 {
   "variants":{
     "": {
-      "model": "tutorial-mod:block/bloco_de_maconha"
+      "model": "tutorialmod:block/bloco_de_maconha"
     }
   }
 
