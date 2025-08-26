@@ -2,6 +2,7 @@ package net.gustavo.tutorialmod.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.gustavo.tutorialmod.TutorialMod;
+import net.gustavo.tutorialmod.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -16,14 +17,21 @@ public class ModBlocks {
 
     public static final Block BLOCO_DE_MACONHA = registerBlock("bloco_de_maconha",
             new Block(AbstractBlock.Settings.create().
+                    requiresTool().
                     strength(4f).
                     sounds(BlockSoundGroup.CHERRY_LEAVES)));
 
     public static final Block OLHO_NEGRO = registerBlock("olho_negro",
             new Block(AbstractBlock.Settings.create()
                     .strength(7f)
+                    .requiresTool()
                     .noCollision()
                     .sounds(BlockSoundGroup.FUNGUS)));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create()
+                    .strength(3f)
+                    ));
 
 
     public static Block registerBlock(String name, Block block){
@@ -42,6 +50,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.BLOCO_DE_MACONHA);
             fabricItemGroupEntries.add(ModBlocks.OLHO_NEGRO);
+            fabricItemGroupEntries.add(ModBlocks.MAGIC_BLOCK);
         });
     }
 }

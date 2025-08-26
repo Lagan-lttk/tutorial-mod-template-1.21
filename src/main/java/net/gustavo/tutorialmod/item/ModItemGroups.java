@@ -34,6 +34,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.OLHO_NEGRO);
                         entries.add(ModBlocks.BLOCO_DE_MACONHA);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     })
                     .build());
 
