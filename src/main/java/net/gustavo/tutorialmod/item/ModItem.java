@@ -2,6 +2,7 @@ package net.gustavo.tutorialmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.gustavo.tutorialmod.TutorialMod;
+import net.gustavo.tutorialmod.item.custom.ChiselItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -15,6 +16,7 @@ public class ModItem {
     public static final Item MACONHA = registerItem("maconha", new Item(new Item.Settings()));
     public static final Item SEDA = registerItem("seda",new Item(new Item.Settings()));
 
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name),item);

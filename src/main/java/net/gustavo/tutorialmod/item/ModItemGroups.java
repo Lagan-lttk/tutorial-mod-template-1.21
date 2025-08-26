@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItem.BANZA_VERDIN);
                         entries.add(ModItem.MACONHA);
                         entries.add(ModItem.SEDA);
+                        entries.add(ModItem.CHISEL);
                     })
                     .build());
 

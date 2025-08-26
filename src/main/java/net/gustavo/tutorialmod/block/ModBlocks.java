@@ -21,6 +21,7 @@ public class ModBlocks {
 
     public static final Block OLHO_NEGRO = registerBlock("olho_negro",
             new Block(AbstractBlock.Settings.create()
+                    .strength(7f)
                     .noCollision()
                     .sounds(BlockSoundGroup.FUNGUS)));
 
