@@ -3,6 +3,7 @@ package net.gustavo.tutorialmod.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.gustavo.tutorialmod.TutorialMod;
 import net.gustavo.tutorialmod.item.custom.ChiselItem;
+import net.gustavo.tutorialmod.item.custom.PoteDeMaizena;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -15,6 +16,9 @@ public class ModItem {
     public static final Item PRENSADO = registerItem("prensado", new Item(new Item.Settings()));
     public static final Item MACONHA = registerItem("maconha", new Item(new Item.Settings()));
     public static final Item SEDA = registerItem("seda",new Item(new Item.Settings()));
+
+    public static final Item POLENTA = registerItem("polenta", new Item(new Item.Settings().food(ModFoodComponents.POLENTA)));
+    public static final Item POTE_DE_MAIZENA = registerItem("pote_de_maizena", new PoteDeMaizena(new Item.Settings()));
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 

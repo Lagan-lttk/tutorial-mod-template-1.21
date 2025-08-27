@@ -23,6 +23,8 @@ public class ModItemGroups {
                         entries.add(ModItem.MACONHA);
                         entries.add(ModItem.SEDA);
                         entries.add(ModItem.CHISEL);
+                        entries.add(ModItem.POLENTA);
+                        entries.add(ModItem.POTE_DE_MAIZENA);
                     })
                     .build());
 
