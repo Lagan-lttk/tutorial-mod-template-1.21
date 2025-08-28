@@ -1,6 +1,7 @@
 package net.gustavo.tutorialmod.block.custom;
 
 import net.gustavo.tutorialmod.item.ModItem;
+import net.gustavo.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -38,12 +39,16 @@ public class MagicBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if (entity instanceof ItemEntity item){
-            if (item.getStack().getItem() == ModItem.BANZA_VERDIN){
+            if (isValidItem (item.getStack())){
                 item.setStack(new ItemStack(Items.DIAMOND, item.getStack().getCount()));
             }
         }
 
         super.onSteppedOn(world, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack stack) {
+        return stack.isIn(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override
