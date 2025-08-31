@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tutorialmod:block/bloco_de_maconha",
+    "side": "tutorialmod:block/bloco_de_maconha",
+    "top": "tutorialmod:block/bloco_de_maconha"
+  }
+}

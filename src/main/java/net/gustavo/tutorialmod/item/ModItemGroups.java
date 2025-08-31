@@ -50,6 +50,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.BLOCO_DE_MACONHA_DOOR);
                         entries.add(ModBlocks.BLOCO_DE_MACONHA_TRAPDOOR);
+
+                        entries.add(ModBlocks.PINK_GARNET_LAMP);
                     })
                     .build());
 

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorialmod:block/bloco_de_maconha_slab"
+    },
+    "type=double": {
+      "model": "tutorialmod:block/bloco_de_maconha"
+    },
+    "type=top": {
+      "model": "tutorialmod:block/bloco_de_maconha_slab_top"
+    }
+  }
+}
