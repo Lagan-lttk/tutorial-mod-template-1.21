@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_banza_verdin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:banza_verdin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:maconha_from_blasting_banza_verdin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_banza_verdin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:maconha_from_blasting_banza_verdin"
+    ]
+  }
+}

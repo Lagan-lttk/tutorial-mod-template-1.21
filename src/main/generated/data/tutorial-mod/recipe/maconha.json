@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tutorialmod:bloco_de_maconha"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorialmod:maconha"
+  }
+}

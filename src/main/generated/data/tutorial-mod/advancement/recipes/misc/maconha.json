@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bloco_de_maconha": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:bloco_de_maconha"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:maconha"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bloco_de_maconha"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:maconha"
+    ]
+  }
+}

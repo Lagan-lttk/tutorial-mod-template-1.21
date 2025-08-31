@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_olho_negro": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:olho_negro"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:prensado"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_olho_negro"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:prensado"
+    ]
+  }
+}

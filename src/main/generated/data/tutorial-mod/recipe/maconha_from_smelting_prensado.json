@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "maconha",
+  "ingredient": {
+    "item": "tutorialmod:prensado"
+  },
+  "result": {
+    "id": "tutorialmod:maconha"
+  }
+}

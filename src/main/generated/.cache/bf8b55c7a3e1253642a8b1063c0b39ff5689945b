@@ -1,0 +1,14 @@
+// 1.21	2025-08-30T22:03:17.5017282	Tutorial Mod/Model Definitions
+7817c16fe085328ca617006eb85f975eed18cada assets\tutorialmod\blockstates\olho_negro.json
+662a2b856de3f1231ccb28992ce5cfc8069e3f82 assets\tutorialmod\models\item\polenta.json
+0b8d30584729b06e4b267fc789ad8dd1e12b1163 assets\tutorialmod\models\block\olho_negro.json
+2d316979b5247b802b0590d94b40bac75fde6974 assets\tutorialmod\blockstates\magic_block.json
+cd71c55fa71828718305d80d62d84d3dcaa9ab86 assets\tutorialmod\models\item\pote_de_maizena.json
+ed27aaa00c275028e1495bb6d6bfdcea1851067b assets\tutorialmod\models\block\magic_block.json
+69a45d9eda7fcbbb46f3a4bf568243a7b2141123 assets\tutorialmod\models\item\chisel.json
+bd806c3a079d7e88440ed68efe4a1e076b8411f1 assets\tutorialmod\models\item\prensado.json
+390eace18dca153f00244a6ea33786e014ba520d assets\tutorialmod\models\item\maconha.json
+3d98302a9867c860783ab76cb4722c8f84176671 assets\tutorialmod\blockstates\bloco_de_maconha.json
+9126cc380457e7e504d506eb9f1f898eebe1bd3e assets\tutorialmod\models\item\seda.json
+e6839e451f0e3f32da77237adc096e15548e84d2 assets\tutorialmod\models\block\bloco_de_maconha.json
+821aceb51c8d421fb1b101a4c9c278964b8e14f5 assets\tutorialmod\models\item\banza_verdin.json
