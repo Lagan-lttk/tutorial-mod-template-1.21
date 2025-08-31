@@ -28,6 +28,20 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
 
         addDrop(ModBlocks.OLHO_NEGRO);
+
+        addDrop(ModBlocks.BLOCO_DE_MACONHA_STAIRS);
+        addDrop(ModBlocks.BLOCO_DE_MACONHA_SLAB, slabDrops(ModBlocks.BLOCO_DE_MACONHA_SLAB));
+
+        addDrop(ModBlocks.BLOCO_DE_MACONHA_BOTAO);
+        addDrop(ModBlocks.BLOCO_DE_MACONHA_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.BLOCO_DE_MACONHA_FENCE);
+        addDrop(ModBlocks.BLOCO_DE_MACONHA_FENCE_GATE);
+        addDrop(ModBlocks.BLOCO_DE_MACONHA_WALL);
+
+        addDrop(ModBlocks.BLOCO_DE_MACONHA_DOOR, doorDrops(ModBlocks.BLOCO_DE_MACONHA_DOOR));
+        addDrop(ModBlocks.BLOCO_DE_MACONHA_TRAPDOOR);
+
         addDrop(ModBlocks.BLOCO_DE_MACONHA, oreDrops(ModBlocks.BLOCO_DE_MACONHA, ModItem.MACONHA));
         addDrop(ModBlocks.MAGIC_BLOCK, multipleOreDrops(ModBlocks.MAGIC_BLOCK, ModItem.POLENTA,2,10));
 

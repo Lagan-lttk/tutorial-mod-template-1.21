@@ -1,4 +1,13 @@
-// 1.21	2025-08-30T22:03:17.4997333	Tutorial Mod/Block Loot Tables
-0eec1d496687ea17d872fb60979c2ac8681b0409 data\tutorialmod\loot_table\blocks\bloco_de_maconha.json
+// 1.21	2025-08-31T13:54:44.7074366	Tutorial Mod/Block Loot Tables
+e905c5d7e0ce0d861976e8eb78a7250cb1234097 data\tutorialmod\loot_table\blocks\bloco_de_maconha_trapdoor.json
+7b5114efd9a300cd5e9ee701934f624ed8736803 data\tutorialmod\loot_table\blocks\bloco_de_maconha_stairs.json
+dfc8bd643833b154d80e65e2e17845b7b779a8eb data\tutorialmod\loot_table\blocks\bloco_de_maconha_wall.json
 7159cc277a98a7f6f7ee4e7e3ded79350268a53d data\tutorialmod\loot_table\blocks\magic_block.json
+42cf51d0f74650de52697ddf72a12844c81001e9 data\tutorialmod\loot_table\blocks\bloco_de_maconha_fence_gate.json
+e744fa83d415a55bdb7cc054fc2566d24de8983a data\tutorialmod\loot_table\blocks\bloco_de_maconha_fence.json
+c1808095f8d85628863c261020607db69aa5080f data\tutorialmod\loot_table\blocks\bloco_de_maconha_door.json
+bdf36bbb08e92802e3cb71fc119b0a0b6868bcee data\tutorialmod\loot_table\blocks\bloco_de_maconha_pressure_plate.json
+0eec1d496687ea17d872fb60979c2ac8681b0409 data\tutorialmod\loot_table\blocks\bloco_de_maconha.json
+66726c93feaa5714644d50bdd0493d14e9c4e242 data\tutorialmod\loot_table\blocks\bloco_de_maconha_slab.json
+542c77672e020096b4e6e479b0f9e8f8a9169e0f data\tutorialmod\loot_table\blocks\bloco_de_maconha_botao.json
 4cf0e135abaa7317a6080b5113161449c0cd9706 data\tutorialmod\loot_table\blocks\olho_negro.json

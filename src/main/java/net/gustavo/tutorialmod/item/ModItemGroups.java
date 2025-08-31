@@ -37,6 +37,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.OLHO_NEGRO);
                         entries.add(ModBlocks.BLOCO_DE_MACONHA);
                         entries.add(ModBlocks.MAGIC_BLOCK);
+
+                        entries.add(ModBlocks.BLOCO_DE_MACONHA_STAIRS);
+                        entries.add(ModBlocks.BLOCO_DE_MACONHA_SLAB);
+
+                        entries.add(ModBlocks.BLOCO_DE_MACONHA_BOTAO);
+                        entries.add(ModBlocks.BLOCO_DE_MACONHA_PRESSURE_PLATE);
+
+                        entries.add(ModBlocks.BLOCO_DE_MACONHA_FENCE);
+                        entries.add(ModBlocks.BLOCO_DE_MACONHA_FENCE_GATE);
+                        entries.add(ModBlocks.BLOCO_DE_MACONHA_WALL);
+
+                        entries.add(ModBlocks.BLOCO_DE_MACONHA_DOOR);
+                        entries.add(ModBlocks.BLOCO_DE_MACONHA_TRAPDOOR);
                     })
                     .build());
 

@@ -23,5 +23,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.OLHO_NEGRO)
                 .add(ModBlocks.BLOCO_DE_MACONHA);
+
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.BLOCO_DE_MACONHA_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.BLOCO_DE_MACONHA_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.BLOCO_DE_MACONHA_WALL);
     }
 }

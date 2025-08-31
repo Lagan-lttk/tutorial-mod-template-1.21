@@ -11,6 +11,19 @@
   "block.tutorialmod.olho_negro": "Olho Negro",
   "block.tutorialmod.magic_block": "Bloco mágico",
 
+  "block.tutorialmod.bloco_de_maconha_stairs": "Bloco de Maconha Escada",
+  "block.tutorialmod.bloco_de_maconha_slab": "Bloco de Maconha Laje ",
+
+  "block.tutorialmod.bloco_de_maconha_botao": "Bloco de Maconha Botão",
+  "block.tutorialmod.bloco_de_maconha_pressure_plate": "Bloco de Maconha Pressure Plate",
+
+  "block.tutorialmod.bloco_de_maconha_fence": "Bloco de Maconha Cerca",
+  "block.tutorialmod.bloco_de_maconha_fence_gate": "Bloco de Maconha Cerca com Porta",
+  "block.tutorialmod.bloco_de_maconha_wall": "Bloco de Maconha Parede",
+
+  "block.tutorialmod.bloco_de_maconha_door": "Bloco de Maconha Porta",
+  "block.tutorialmod.bloco_de_maconha_trapdoor": "Bloco de Maconha Alçapão",
+
   "tooltip.tutorialmod.chisel.shift_down": "Esse item transforma blocos de areia em maconha!",
   "tooltip.tutorialmod.chisel": "Aperte §eSHIFT§r para mais informações!",
 
