@@ -1,6 +1,7 @@
 package net.gustavo.tutorialmod.item.custom;
 
 import net.gustavo.tutorialmod.block.ModBlocks;
+import net.gustavo.tutorialmod.component.ModDataComponentTypes;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
@@ -46,6 +47,8 @@ public class ChiselItem extends Item {
                         item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null,context.getBlockPos(), SoundEvents.BLOCK_GRINDSTONE_USE, SoundCategory.BLOCKS);
+
+                context.getStack().set(ModDataComponentTypes.CORDINATES, context.getBlockPos());
             }
         }
 
@@ -58,6 +61,10 @@ public class ChiselItem extends Item {
             tooltip.add(Text.translatable("tooltip.tutorialmod.chisel.shift_down"));
         }else {
             tooltip.add(Text.translatable("tooltip.tutorialmod.chisel"));
+        }
+
+        if (stack.get(ModDataComponentTypes.CORDINATES) != null){
+            tooltip.add(Text.literal("Last block changed at "+ stack.get(ModDataComponentTypes.CORDINATES)));
         }
 
         super.appendTooltip(stack, context, tooltip, type);
