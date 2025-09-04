@@ -3,6 +3,7 @@ package net.gustavo.tutorialmod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.gustavo.tutorialmod.block.ModBlocks;
+import net.gustavo.tutorialmod.util.ModTags;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 
@@ -27,5 +28,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.BLOCO_DE_MACONHA_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.BLOCO_DE_MACONHA_FENCE_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.BLOCO_DE_MACONHA_WALL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.INCORRECT_FOR_MACONHA_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }

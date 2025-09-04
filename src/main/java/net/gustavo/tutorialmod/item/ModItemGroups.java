@@ -25,6 +25,12 @@ public class ModItemGroups {
                         entries.add(ModItem.CHISEL);
                         entries.add(ModItem.POLENTA);
                         entries.add(ModItem.POTE_DE_MAIZENA);
+
+                        entries.add(ModItem.MACONHA_SWORD);
+                        entries.add(ModItem.MACONHA_PICKAXE);
+                        entries.add(ModItem.MACONHA_AXE);
+                        entries.add(ModItem.MACONHA_SHOVEL);
+                        entries.add(ModItem.MACONHA_HOE);
                     })
                     .build());
 

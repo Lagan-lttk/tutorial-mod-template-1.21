@@ -9,6 +9,7 @@ import net.gustavo.tutorialmod.util.ModTags;
 import net.minecraft.item.Items;
 import net.minecraft.item.MinecartItem;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -29,5 +30,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
             .add(ModItem.PRENSADO)
             .add(Items.BELL)
             .add(Items.AXOLOTL_SPAWN_EGG);
+
+    getOrCreateTagBuilder(ItemTags.SWORDS)
+            .add(ModItem.MACONHA_SWORD);
+    getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItem.MACONHA_PICKAXE);
+    getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItem.MACONHA_AXE);
+    getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItem.MACONHA_SHOVEL);
+    getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItem.MACONHA_HOE);
     }
 }

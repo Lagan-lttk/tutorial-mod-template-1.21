@@ -51,6 +51,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItem.PRENSADO, Models.GENERATED);
         itemModelGenerator.register(ModItem.SEDA, Models.GENERATED);
         itemModelGenerator.register(ModItem.POTE_DE_MAIZENA, Models.GENERATED);
+
+        itemModelGenerator.register(ModItem.MACONHA_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItem.MACONHA_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItem.MACONHA_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItem.MACONHA_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItem.MACONHA_HOE, Models.HANDHELD);
     }
 }
 
